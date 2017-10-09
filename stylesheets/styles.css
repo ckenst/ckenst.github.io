@@ -10,11 +10,21 @@ body,
 
 body {
   text-align: center;
+  font-family: Roboto,HelveticaNeue,Helvetica,Tahoma,sans-serif;
 }
 
-h1 {
+.biography {
   font-size: 1.4em;
   font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.avatar {
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover!important;
   margin-top: 10%;
   margin-bottom: 2%;
 }
